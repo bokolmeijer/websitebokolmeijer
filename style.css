@@ -1307,12 +1307,107 @@ body #wrap .panel .thumb img.lighter {
 }
 
 /*Contact page*/
-.container-email{
- width: 100%;
- height: auto;
- background: #6b8061;
- display:flex;
- align-items: center;
- justify-content: center;
+
+.card{
+ 
+  background-color: #fff !important;
+  margin-top: 95px;
+  margin-right: 105px;
+  margin-left: 105px;
+  padding:10px;
+}
+.wrapper {
+  height: 75px;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: bottom;
+}
+
+.typing-demo {
+  color: #114718;
+  height: 40px;
+  width: 22ch;
+  animation: typing 6s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: "Bogart-Semibold";
+  font-size: 1.8em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  70% {
+    border-color: transparent
+  }
+}
+
+@media (max-width: 767px) {
+  .typing-demo {
+    width: 12,5ch;
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .typing-demo {
+    width: 14.5ch;
+    font-size: 1.8em;
+  }
+}
+
+@media (min-width: 992px) {
+  .typing-demo {
+    width: 14.5ch;
+    font-size: 1.8em;
+  }
+}
+
+.border-right {
+  border-right: 1px solid #D2D2D2;
+}
+
+.btn-success{
+  background-color: #6B8061 !important;
+ 
+}
+
+.fa-ul li {
+  position: relative;
+  padding-left: 1em; /* Adjust the padding value as needed */
+}
+
+.fa-ul li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 0.5em; /* Adjust the width value as needed */
+  height: 0.2em; /* Adjust the height value as needed */
+  background-color: #fff; /* Adjust the background color as needed */
+}
+ul.fa-ul li {
+  margin-top: 40px;
+  margin-bottom: 10px; /* adjust this value as per your requirement */
+  margin-left: 40px; /* adjust this value as per your requirement */
+
+}
+
+.row-contact{
+  padding-top: 55px;
+ 
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+body{
+  background-color: #eeece5!important;
+
 }
 

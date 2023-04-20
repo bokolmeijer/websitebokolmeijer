@@ -1,14 +1,4 @@
-@media (max-width: 768px) {
-  .container {
-    max-width: 700px; /* Max-width for small screens */
-  }
-}
 
-@media (max-width: 992px) {
-  .container {
-    max-width: 800px; /* Max-width for medium screens */
-  }
-}
 
 .bottom-list{
   margin-bottom: 1rem;
