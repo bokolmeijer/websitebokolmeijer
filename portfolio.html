@@ -6,6 +6,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel="stylesheet" href="./style.css">
+<script>
+  (function () {var a={};var f=/iPhone/i,h=/iPod/i,i=/iPad/i,r=/\biOS-universal(?:.+)Mac\b/i,g=/\bAndroid(?:.+)Mobile\b/i,j=/Android/i,c=/(?:SD4930UR|\bSilk(?:.+)Mobile\b)/i,d=/Silk/i,b=/Windows Phone/i,k=/\bWindows(?:.+)ARM\b/i,m=/BlackBerry/i,n=/BB10/i,o=/Opera Mini/i,p=/\b(CriOS|Chrome)(?:.+)Mobile/i,q=/Mobile(?:.+)Firefox\b/i;function s(l){return function($){return $.test(l)}}function e(l){var $=(l=l||("undefined"!=typeof navigator?navigator.userAgent:"")).split("[FBAN");void 0!==$[1]&&(l=$[0]),void 0!==($=l.split("Twitter"))[1]&&(l=$[0]);var a=s(l),e={apple:{phone:a(f)&&!a(b),ipod:a(h),tablet:!a(f)&&a(i)&&!a(b),universal:a(r),device:(a(f)||a(h)||a(i))&&!a(b)},amazon:{phone:a(c),tablet:!a(c)&&a(d),device:a(c)||a(d)},android:{phone:!a(b)&&a(c)||!a(b)&&a(g),tablet:!a(b)&&!a(c)&&!a(g)&&(a(d)||a(j)),device:!a(b)&&(a(c)||a(d)||a(g)||a(j))||a(/\bokhttp\b/i)},windows:{phone:a(b),tablet:a(k),device:a(b)||a(k)},other:{blackberry:a(m),blackberry10:a(n),opera:a(o),firefox:a(q),chrome:a(p),device:a(m)||a(n)||a(o)||a(q)||a(p)},any:!1,phone:!1,tablet:!1};return e.any=e.apple.universal||e.apple.device||e.android.device||e.windows.device||e.other.device,e.phone=e.apple.phone||e.android.phone||e.windows.phone,e.tablet=e.apple.tablet||e.android.tablet||e.windows.tablet,e}a=e();if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=a}else if(typeof define==="function"&&define.amd){define(function(){return a})}else{this["isMobile"]=a}})();
+  
+  isMobile.any || document.querySelector('html').classList.add('is-desktop');
+  </script><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css'><link rel="stylesheet" href="./style.css">
+  
 
 </head>
 <body>
@@ -30,7 +36,76 @@
   </div>
 </nav>
 
- 
+<div class="c-magic-area c-magic-area--menu" data-target-class=".c-main-menu__link" data-tween-back="true" aria-hidden="true"></div>
+<div class="c-magic-area c-magic-area--content" data-target-class=".c-article__link" data-tween-back="false" aria-hidden="true"></div>
+ <main id="page" class="o-page">
+
+
+  <section class="o-main-section">
+    <h1 class="portfolio-header">Portfolio</h1>
+
+    <article class="c-article">
+      <a class="c-article__link" href="#">
+        <div>
+          <header>
+            <h3 class="c-article__heading">Web Development and Branding Project</h3>
+          </header>
+          <div class="c-article__content">
+            My task was to design a website for a fictional brand to create a strong online presence and visually communicate its values and offerings to potential customers. I utilized my expertise in web development and branding to create a polished and professional final product.
+          </div>
+        </div>
+        <div class="c-article__img-wrapper">
+          <img class="c-article__img" src="Resources/bambler.png" alt="Ink transition with PNG sprite" />
+        </div>
+      </a>
+    </article>
+
+    <article class="c-article">
+      <a class="c-article__link" href="#">
+        <div>
+          <header>
+            <h3 class="c-article__heading">Web Development Project</h3>
+          </header>
+          <div class="c-article__content">
+            I created a professional portfolio website to showcase my skills and projects. The website effectively communicates my accomplishments, experiences, and areas of expertise to potential employers or clients. I carefully considered design principles and communication strategies to ensure that the website represents my personal brand and reflects my commitment to excellence in my field.          </div>
+        </div>
+        <div class="c-article__img-wrapper">
+          <img class="c-article__img" src="Resources/personalwebsite.png" alt="Responsive Mondrian art with CSS grid" />
+        </div>
+      </a>
+    </article>
+
+    <article class="c-article">
+      <a class="c-article__link" href="#">
+        <div>
+          <header>
+            <h3 class="c-article__heading">UI/UX Project </h3>
+          </header>
+          <div class="c-article__content">
+            A youth political organization asked us to redesign their voting guide to provide users with more accurate results and improve its design. We analyzed their requirements and developed a user-centered solution using data analysis and intuitive design. The resulting guide provides an improved experience for users to make informed decisions.          </div>
+        </div>
+        <div class="c-article__img-wrapper">
+          <img class="c-article__img" src="Resources/stemwjzer portfolio.png" alt="Responsive Mondrian art with CSS grid" />
+        </div>
+      </a>
+    </article>
+
+    <article class="c-article">
+      <a class="c-article__link" href="#">
+        <div>
+          <header>
+            <h3 class="c-article__heading">Wordpress, UI/UX and Branding Project</h3>
+          </header>
+          <div class="c-article__content">
+            I redesigned Cafe Couture's website to improve its online presence and provide visitors with comprehensive information about the brand. By analyzing their objectives and target audience, I developed a user-friendly redesign strategy that effectively communicates their unique offerings and identity. The final product enhances visual appeal and optimizes content to engage and inform visitors.          </div>
+        </div>
+        <div class="c-article__img-wrapper">
+          <img class="c-article__img" src="Resources/cafecouture.png" alt="Portfolio Example 4" />
+        </div>
+      </a>
+    </article>
+  </section>
+</main>
   
   
    
