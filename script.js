@@ -261,8 +261,8 @@ VanillaTilt.init(document.querySelector(".c-fe30__inner"), {
 // script for tab steps
 $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
 
-  var href = $(e.target).attr('href');
-  var $curr = $(".process-model  a[href='" + href + "']").parent();
+  const href = $(e.target).attr('href');
+  const $curr = $(".process-model  a[href='" + href + "']").parent();
 
   $('.process-model li').removeClass();
 
