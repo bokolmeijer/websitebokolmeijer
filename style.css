@@ -1637,6 +1637,30 @@ body{
   font-size: 3.5em;
 }
 
+.wrapper3 {
+  margin-top: 70px;
+  padding-bottom: 10px;
+  height: 75px;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: bottom; 
+  justify-content: center;
+  align-items: center;
+
+}
+
+.typing-demo3 {
+  color: #114718;
+  height: 50px;
+  width: 6.7ch;
+  
+  animation: typing 3s steps(12), blink .4s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: "Bogart-Semibold";
+  font-size: 3.5em;
+}
 
 .header-index {
   font-size: 15px;
